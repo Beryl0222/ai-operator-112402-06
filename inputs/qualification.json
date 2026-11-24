@@ -1,0 +1,98 @@
+{
+  "frames": 8192,
+  "pageSize": 64,
+  "alphabetSize": 33,
+  "seed": 981,
+  "textLength": 256,
+  "replacement": {
+    "branch": "a",
+    "page": 124,
+    "revision": 2,
+    "targetShift": 1
+  },
+  "residentBytes": 196608,
+  "initialReadLimit": 512,
+  "changedReadLimit": 112,
+  "events": [
+    [
+      "open",
+      "base"
+    ],
+    [
+      "confirm",
+      "base",
+      3071,
+      96
+    ],
+    [
+      "confirm",
+      "base",
+      6143,
+      192
+    ],
+    [
+      "fork",
+      "base",
+      "a",
+      "repeat"
+    ],
+    [
+      "fork",
+      "base",
+      "b",
+      "neighbor"
+    ],
+    [
+      "read",
+      "a",
+      7808,
+      8000
+    ],
+    [
+      "read",
+      "b",
+      7808,
+      8000
+    ],
+    [
+      "accept",
+      "b",
+      7808,
+      8000
+    ],
+    [
+      "replace",
+      "a",
+      124,
+      2
+    ],
+    [
+      "read",
+      "a",
+      7808,
+      8000
+    ],
+    [
+      "undo",
+      "a"
+    ],
+    [
+      "read",
+      "a",
+      7616,
+      7680
+    ],
+    [
+      "release",
+      "b",
+      122,
+      125
+    ],
+    [
+      "history",
+      "b",
+      7808,
+      8000
+    ]
+  ]
+}
